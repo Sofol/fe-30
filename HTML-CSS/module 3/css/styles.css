@@ -25,10 +25,9 @@ img{
 }
 
 .section{
-    width: 1146px;
+    width: 1200px;
     margin: 0 auto;
     color: #757575;
-    margin-left: 170px;
 }
 
 .header {
@@ -42,24 +41,22 @@ img{
 
 .header__list {
     font-size: 14pt;
-    display: inline-block;
     text-align: right;
 }
 
 .header__list-item {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 100px;
     text-transform: uppercase;
     font-size: 14px;
-    padding-left: 72px;
 }
 
 .header__list-item-first{
-    margin-left: 77px;
+    margin-left: 0 auto;
 }
 
 .header__list-item-last {
-    margin-right: 0;
+    margin-right: 166px;
 } 
 
 .header__list-link:hover {
@@ -96,7 +93,7 @@ img{
 .lifestyle-list-about {
     margin-top: 40px;
     margin-bottom: 100px;
-    height: 50pt;
+    height: 50px;
     text-align: left;
 }
 
@@ -107,7 +104,7 @@ img{
     margin-left: 350px;
     background-color: #ffffff;  
     cursor: pointer;
-    font-size: 16pt;
+    font-size: 16px;
     border-width: 1px;
     border-color: rgb(98, 98, 98);
     border-style: solid;
@@ -115,6 +112,15 @@ img{
     color: #818181;
 }
 
+.lifestyle-list-item-a {
+    margin-left: 150px;
+    margin-right: 60px;
+
+}
+
+.lifestyle-list-item-b {
+    margin-left: 0;
+}
 
   
 
