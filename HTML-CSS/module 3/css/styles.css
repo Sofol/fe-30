@@ -73,8 +73,7 @@ img{
 
 .lifestyle-list-item {
     display: inline-block;
-    width: 410px;
-    margin-left: 60px;
+    width: 350px;
 }
 
 .lifestyle-list-occupation {
@@ -100,8 +99,6 @@ img{
 .loadmore {
     border: 1px;
     padding: 20px 30px;
-    margin-bottom: 70px;
-    margin-left: 600px;
     background-color: #ffffff;  
     cursor: pointer;
     font-size: 16px;
@@ -112,11 +109,12 @@ img{
     color: #818181;
 }
 
-.lifestyle-list-item-a {
-    margin-left: 2px;
-    margin-right: 60px;
+    
 
-}
+    .lifestyle-list-item-a{
+        margin-left: 2px;
+        margin-right: 60px;
+    }
 
 .lifestyle-list-item-b {
     margin-left: 0;
