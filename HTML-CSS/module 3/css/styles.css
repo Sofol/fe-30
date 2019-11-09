@@ -52,7 +52,7 @@ img{
 }
 
 .header__list-item-first{
-    margin-left: 0 auto;
+    margin-left: 140px;
 }
 
 .header__list-item-last {
@@ -73,7 +73,7 @@ img{
 
 .lifestyle-list-item {
     display: inline-block;
-    width: 350px;
+    width: 420px;
 }
 
 .lifestyle-list-occupation {
@@ -107,18 +107,17 @@ img{
     border-style: solid;
     font-family: "Playfair Display", serif;
     color: #818181;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 
-    
 
-    .lifestyle-list-item-a{
-        margin-left: 2px;
-        margin-right: 60px;
-    }
 
-.lifestyle-list-item-b {
-    margin-left: 0;
+.lifestyle-list-item-a{
+    margin-right: 56px;
 }
+
 
   
 
