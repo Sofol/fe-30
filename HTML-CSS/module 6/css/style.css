@@ -300,10 +300,19 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
+
 .subscribe{
     margin-top: 10px;
 }
 
 .link{
     color: #f6a1a1;
+}
+
+.ourteam::after{
+    display: block;
+    content: "";
+    height: 1px;
+    background-color: #e7e7e7;
+    margin: 0 auto;
 }
