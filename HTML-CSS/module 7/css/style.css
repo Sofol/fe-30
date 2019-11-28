@@ -185,6 +185,7 @@ justify-content: space-between;
     font-size: 14px;
    text-align: center;
    color: rgb(156, 156, 156);
+   line-height: 25px;
 }
 
 .message__title {
