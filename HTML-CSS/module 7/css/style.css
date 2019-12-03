@@ -70,11 +70,6 @@ img{
     background-color: transparent;
 }
 
-.clearfix::after {
-    display: table;
-    content: "";
-    clear: both;
-}
 
 .navigation{
     display: flex;
@@ -83,7 +78,6 @@ img{
 }
 
 .logotype {
-    float: left;
     margin-bottom: 115px;
 }
 
@@ -94,7 +88,7 @@ img{
 
 .header__list-item{
     margin-left: 30px;
-    float: left;
+    
     font-size: 15px;
     padding-top: 3px;
     text-align: left;
@@ -212,7 +206,7 @@ justify-content: space-between;
     background-color: black;
     background-image: url(../img/Map.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom 20px;
     
 }
 
@@ -236,15 +230,25 @@ justify-content: space-between;
     flex-direction: column;
     justify-content: space-between;
     height: 210px;
+    width: 455px;
 }
 
 .form__input{
-    padding: 19px 270px 19px 20px;
+    padding: 19px  19px 20px;
     border-radius: 2px;
     border: 1px solid;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
+    border: none;
+}
+
+input:required:focus:valid {
+    border: 3px solid green;
+}
+
+input:required:focus:invalid {
+    border: 3px solid red;
 }
 
 .textarea {
@@ -258,6 +262,14 @@ justify-content: space-between;
     font-style: normal;
     font-weight: 800;
     color: #777777;
+}
+
+textarea:required:focus:valid {
+    border: 3px solid green;
+}
+
+textarea:required:focus:invalid {
+    border: 3px solid red;
 }
 
 .form__btn{
