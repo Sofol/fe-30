@@ -1,3 +1,41 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+         url('../fonts/montserrat-v14-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -22,3 +60,271 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.container{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url("../img/header/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 540px;
+}
+
+.login, .signup{
+    border-style: solid;
+    width: 90px;
+    height: 35px;
+    background-color: inherit;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border-width: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.login:hover{
+    border-color: white;
+    border-width: 2px;
+}
+
+.signup:hover{
+    border-color: white;
+    border-width: 2px;
+}
+
+.logoflex{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+  
+.buttons{
+    padding-top: 20px;
+}
+
+
+.header__text{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 35px;
+}
+
+.undertext{
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 18px;
+    width: 222px;
+}
+
+.textitem{
+    display: block;
+    width: 201px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header__button{
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    width: 280px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.meintext{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.list__item{
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    width: 236px;
+}
+
+
+.skill{
+    position: absolute;
+    top: 85px;
+    left: 141px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 4px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.icon{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.parthners__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    margin-bottom: 15px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+
+}
+
+.about{
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.downbutton{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 78, 80);
+    width: 284px;
+    height: 44px;
+    align-items: center;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 668px;
+    }
+
+   .header{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/header/tablet.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+   }
+
+   .logoflex{
+       flex-direction: row-reverse;
+       height: auto;
+       padding-top: 30px;
+   }
+   
+   .header__text{
+    padding-top: 140px;
+   }
+
+   .header__title{
+       width: 480px;
+       margin: 0 auto;
+       font-size: 50px;
+   }
+
+   .textitem{
+       width: 404px;
+       padding-top: 40px;
+   }
+   
+   .header__button{
+       width:220px;
+       margin-top: 40px;
+    
+   }
+
+   .undertext{
+       font-size: 24px;
+       width: 395px;
+   }
+
+   .parthners__list{
+       flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       padding-top: 40px;
+       align-items: flex-start;
+   }
+
+   .meintext{
+       padding-top: 70px;
+   }
+   
+   .list__item:nth-child(2){
+        order: 1;
+   }
+   .list__item:nth-child(4){
+       order: 2;
+   }
+
+   .downbutton{
+       width: 190px;
+
+   }
+
+}   
+
+@media (min-width:1340px){
+    .container{
+        width: 942px;
+    }
+    
+    .header{
+    background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/header/desctop.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+
+    .parthners__list{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 40px;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+    
+    .list__item{
+        width: 220px;
+    }
+}
+  
+
+  
