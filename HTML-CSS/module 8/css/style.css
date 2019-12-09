@@ -88,14 +88,17 @@ img {
     font-size: 14px;
 }
 
+
 .login:hover{
     border-color: white;
     border-width: 2px;
+    transition: 0.2s;
 }
 
 .signup:hover{
     border-color: white;
     border-width: 2px;
+    transition: 0.2s;   
 }
 
 .logoflex{
@@ -155,6 +158,11 @@ img {
     font-family:"Montserrat", sans-serif;
     font-weight: 600;
     font-size: 14px;
+}
+
+.header__button:hover{
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    transition: 0.2s;   
 }
 
 .meintext{
@@ -228,7 +236,12 @@ img {
     margin-bottom: 55px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 14px; 
+}
+
+.downbutton:hover{
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    transition: 0.2s;   
 }
 
 @media (min-width: 768px){
