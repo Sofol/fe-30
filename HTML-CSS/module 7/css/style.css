@@ -244,11 +244,11 @@ justify-content: space-between;
 }
 
 input:required:focus:valid {
-    border: 3px solid green;
+    outline-color:green;
 }
 
 input:required:focus:invalid {
-    border: 3px solid red;
+    outline-color: red;
 }
 
 .textarea {
@@ -265,11 +265,12 @@ input:required:focus:invalid {
 }
 
 textarea:required:focus:valid {
-    border: 3px solid green;
+    outline-color:  green;
+    outline-width: medium;
 }
 
 textarea:required:focus:invalid {
-    border: 3px solid red;
+    outline-color: red;
 }
 
 .form__btn{
