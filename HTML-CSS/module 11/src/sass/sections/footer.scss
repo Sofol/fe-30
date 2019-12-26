@@ -1,0 +1,64 @@
+.footertext{
+    margin-top:25px;
+    margin-bottom: 25px;
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    display: flex;
+}
+
+.form__btn{
+    background-color: #95e1d3;
+    font-family: $main-font;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 15px 34px 15px 34px;
+    border:none;
+    font-size: 15px;
+}
+
+.form__btn:hover{
+    background-color: $secondary-color;
+    -webkit-transition: .6s linear;
+    -o-transition: .6s linear;
+    transition: .6s linear;
+}
+.form__input{
+    padding: 13px 50px 13px 11px;
+    font-family: $secondary-font;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.foot{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+
+.subscribe{
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.link{
+    color: $secondary-color;
+}
+
+.team::after{
+    display: block;
+    content: "";
+    height: 1px;
+    background-color: #e7e7e7;
+    margin: 0 auto;
+}

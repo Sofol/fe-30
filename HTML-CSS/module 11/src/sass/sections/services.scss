@@ -1,0 +1,118 @@
+.services__text{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+
+ &__text-uptitle{
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+}
+}
+.services__text-title{
+    font-size:30px;
+    font-family: $main-font;
+    font-weight: 800;
+}
+
+.services__text-title::after{
+    display: block;
+    content: "";
+    width: 64px;
+    height: 5px;
+    background-color: $secondary-color;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.header__navigation-svg{
+    fill: #ffffff;
+    width: 18px;
+    height: 15px;
+}
+
+.menu__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.menu__list-item{
+    max-width:340px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.menu__item-text{
+    margin-top: 0;
+    font-family: $main-font;
+    font-weight: 800;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.menu__item-about{
+    font-family: $secondary-font;
+    color: #999999;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.myspace__png{
+    margin-right: 30px;
+}
+
+.navigation__item:hover{
+    color: $main-color;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+     
+}
+
+.header__navigation-svg:hover{
+    fill: $main-color;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+     
+}
+
+.navigation__item::after{
+    display: block;
+    content: "";
+    width: auto;
+    height: 4px;
+    background-color: $main-color;
+    margin-top: 10px;
+    width: 0%;
+    -webkit-transition: width .2s ease-in-out;
+    -o-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+.navigation__item:hover::after{
+    width: 100%;
+}
+
+.service__text-subtext{
+    color: rgb(155, 153, 153);
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    font-family: $secondary-font;
+    font-weight: 400;
+}
