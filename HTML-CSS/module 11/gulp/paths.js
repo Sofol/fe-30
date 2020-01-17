@@ -13,13 +13,13 @@ module.exports = {
     images: 'src/images/**/*',
     fonts: 'src/fonts/**/*',
   },
-  /*build: {
+  build: {
     html: 'build/',
     css: 'build/css',
     js: 'build/js',
     images: 'build/images',
     fonts: 'build/fonts',
-  },*/
+  },
   inject: {
     html: 'build/index.html',
     css: 'build/css/**/*.css',
